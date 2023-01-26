@@ -21,6 +21,8 @@ This example runs a [Directus](https://directus.io/) instance with  config for e
 
 ## 💁‍♀️ How to use
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/urNtot?referralCode=uZqPOi)
+
 - Add the .env vars on template (you can add more vars when the app is deployed).
 - Let railway deploy your service, grab the generated domain from the service settings.
 - Login in the panel using the defined ADMIN_EMAIL and ADMIN_PASSWORD used in .env vars
