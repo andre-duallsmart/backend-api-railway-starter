@@ -1,6 +1,6 @@
 ---
-title: Directus
-description: A one-click-install Directus instance using PostgreSQL. Always install lastest version know of Directus.
+title: Broncar Directus Railway Starter
+description: A one-click-install Directus instance using remote PostgreSQL. Always install lastest version know of Directus.
 tags:
   - javascript
   - directus
@@ -8,16 +8,15 @@ tags:
   - postgreSQL
 ---
 
-# Directus railway template
+# Broncar Directus Railway Starter
 
-This example runs a [Directus](https://directus.io/) instance with minimal config using PostgreSQL.
+This example runs a [Directus](https://directus.io/) instance with  config for external PostgreSQL.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/2fy758?referralCode=4ArgSI)
 
 ## ✨ Features
 
 - Directus
-- PostgreSQL
+- remote PostgreSQL config
 - Javascript
 
 ## 💁‍♀️ How to use
