@@ -6,13 +6,13 @@ module.exports = function (env) {
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
         KEY: env.KEY,
         SECRET: env.SECRET,
-        BCAR_DB_CLIENT: env.BCAR_DB_CLIENT,
-        BCAR_DB_HOST: env.BCAR_DB_HOST,
-        BCAR_DB_PORT: env.BCAR_DB_PORT,
-        BCAR_DB_DATABASE: env.BCAR_DB_DATABASE,
-        BCAR_DB_USER: env.BCAR_DB_USER,
-        BCAR_DB_PASSWORD: env.BCAR_DB_PASSWORD,
-        BCAR_DB_SSL: env.BCAR_DB_SSL,
+        // BCAR_DB_CLIENT: env.BCAR_DB_CLIENT,
+        // BCAR_DB_HOST: env.BCAR_DB_HOST,
+        // BCAR_DB_PORT: env.BCAR_DB_PORT,
+        // BCAR_DB_DATABASE: env.BCAR_DB_DATABASE,
+        // BCAR_DB_USER: env.BCAR_DB_USER,
+        // BCAR_DB_PASSWORD: env.BCAR_DB_PASSWORD,
+        // BCAR_DB_SSL: env.BCAR_DB_SSL,
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
@@ -20,12 +20,13 @@ module.exports = function (env) {
         // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
         PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
 
-        DB_CLIENT: env.BCAR_DB_CLIENT,
-        DB_HOST: env.BCAR_DB_HOST,
-        DB_PORT: env.BCAR_DB_PORT,
-        DB_DATABASE: env.BCAR_DB_DATABASE,
-        DB_USER: env.BCAR_DB_USER,
-        DB_PASSWORD: env.BCAR_DB_PASSWORD,
+        DB_CLIENT: env.DB_CLIENT,
+        DB_HOST: env.DB_HOST,
+        DB_PORT: env.DB_PORT,
+        DB_DATABASE: env.DB_DATABASE,
+        DB_USER: env.DB_USER,
+        DB_PASSWORD: env.DB_PASSWORD,
+        DB_SSL: env.DB_SSL
         
         // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
