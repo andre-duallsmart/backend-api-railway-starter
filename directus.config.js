@@ -6,13 +6,6 @@ module.exports = function (env) {
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
         KEY: env.KEY,
         SECRET: env.SECRET,
-        // BCAR_DB_CLIENT: env.BCAR_DB_CLIENT,
-        // BCAR_DB_HOST: env.BCAR_DB_HOST,
-        // BCAR_DB_PORT: env.BCAR_DB_PORT,
-        // BCAR_DB_DATABASE: env.BCAR_DB_DATABASE,
-        // BCAR_DB_USER: env.BCAR_DB_USER,
-        // BCAR_DB_PASSWORD: env.BCAR_DB_PASSWORD,
-        // BCAR_DB_SSL: env.BCAR_DB_SSL,
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
@@ -28,13 +21,17 @@ module.exports = function (env) {
         DB_PASSWORD: env.DB_PASSWORD,
         DB_SSL: env.DB_SSL
         
-        // Database variables from Railway PostgreSQL Plugin
-        // Reference: https://docs.railway.app/plugins/postgresql
-        // DB_CLIENT: 'pg',
-        // DB_HOST: env.PGHOST,
-        // DB_PORT: env.PGPORT,
-        // DB_DATABASE: env.PGDATABASE,
-        // DB_USER: env.PGUSER,
-        // DB_PASSWORD: env.PGPASSWORD,
+        EMAIL_VERIFY_SETUP = env.EMAIL_VERIFY_SETUP,
+	EMAIL_FROM = env.EMAIL_FROM,
+	EMAIL_TRANSPORT = env.EMAIL_TRANSPORT,
+
+	EMAIL_SMTP_NAME = env.EMAIL_SMTP_NAME,
+	EMAIL_SMTP_HOST = env.EMAIL_SMTP_HOST,
+	EMAIL_SMTP_PORT = env.EMAIL_SMTP_PORT,
+	EMAIL_SMTP_USER = env.EMAIL_SMTP_USER,
+	EMAIL_SMTP_PASSWORD = env.EMAIL_SMTP_PASSWORD,
+	EMAIL_SMTP_POOL = env.EMAIL_SMTP_POOL,
+	EMAIL_SMTP_SECURE = env.EMAIL_SMTP_SECURE,
+	EMAIL_SMTP_IGNORE_TLS = env.EMAIL_SMTP_IGNORE_TLS
     };
 };
